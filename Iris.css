@@ -1,0 +1,21 @@
+/*
+very small
+*/
+.iris{
+  position:fixed;
+  top:10vh;
+  right:2rem;
+  background:whitesmoke;
+  opacity:0.9;
+  padding:1rem;
+  border-radius:0.25rem;
+  pointer-events:all;
+}
+
+.iris a{
+  padding:0 2rem;
+}
+
+.pointer-none{
+  pointer-events:none;
+}
