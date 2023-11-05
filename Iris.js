@@ -1,6 +1,8 @@
 /*
 for fujiyama.js css
 */
+import "//hashsan.github.io/use/use.js"
+import "https://hashsan.github.io/underscore/underscore.js"
 
 var Iris={}
 Iris.chank=()=>fn.rkana(16);
