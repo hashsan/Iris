@@ -126,6 +126,9 @@ Iris.input_select=(ask,value)=>{return new Promise((sol,_)=>{
   }  
 })}
 
+window.Iris = Iris
+
+
 /*
 //test();
 async function test(){
