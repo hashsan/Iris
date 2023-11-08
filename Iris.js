@@ -42,19 +42,13 @@ class Iris{
     localStorage.setItem(key,ans)
   }
   make(ask,sample,key){
-    const disa=()=>{
-      if(sample){
-        return
-      }
-      return 'disabled'
-    }
     var temp=`
 <form id="Iris" class="pbox">
   <p class="ask">${ask}</p>
   <p><input class="ans" type="text"
   placeholder="${sample||''}"
   value="${this.get(key)||''}"
-  ${disa()}
+  ${sample?'':'disabled'}
   ></p>
   <p class="c"><button class="ok">submit</button></p>
 </form>
