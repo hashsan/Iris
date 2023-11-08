@@ -1,7 +1,11 @@
 /*
 small talk Iris
 with @import url(https://hashsan.github.io/fujiyama/fujiyama.css?v=3);
-  
+
+
+v1 window add
+v1.1 disabled to cool
+v2 position:fixed the lost
 */
 
 class Iris{
@@ -43,7 +47,7 @@ class Iris{
   }
   make(ask,sample,key){
     var temp=`
-<form id="Iris" class="pbox">
+<form id="Iris" class="pbox" style="position:fixed;top:2rem;right:2rem;">
   <p class="ask">${ask}</p>
   <p><input class="ans" type="text"
   placeholder="${sample||''}"
