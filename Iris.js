@@ -70,3 +70,5 @@ class Iris{
   }
 }
 
+window.Iris = Iris //
+
